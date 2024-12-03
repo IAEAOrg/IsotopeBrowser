@@ -109,9 +109,9 @@ public class NuclideListItemAdapterPagedStd extends PagedListAdapter<NuclidesAnd
         public void onClick(View v) {
             nuclideListViewModel.itemClicked(getItem(getAbsoluteAdapterPosition()).nuclide.getPk());
 
-            /* TO TEST the nuclide detail page on all nuclides
-            To use this : search with * , scroll down to the last nuclide, then click on a nuclide
-            int i = 1;
+            //TO TEST the nuclide detail page on all nuclides
+            //To use this : search with * , scroll down to the last nuclide, then click on a nuclide
+            /*int i = 1;
             try{
 
             Nuclide n = null;
@@ -129,7 +129,6 @@ public class NuclideListItemAdapterPagedStd extends PagedListAdapter<NuclidesAnd
             }
 
 */
-
         }
     }
 

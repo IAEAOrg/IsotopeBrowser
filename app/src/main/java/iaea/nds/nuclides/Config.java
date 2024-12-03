@@ -10,7 +10,9 @@ public class Config {
     public static final String DATABASE_ASSET_NAME = "nuclides.db";
     public static final String DATABASE_NAME = "nuclides";
     public static final String DATABASE_ASSET_SQLFILE = "nuclides.sql";
-    public static final int db_version_apk = 85;//83;
+    /* this is the version of the database shipped with the app. It is compared with the one saved  in the SharedPreferences
+    * of the device. If newer, the db is updated*/
+    public static final int db_version_apk = 86;//85;//;
     /**
      * preferences
      */
