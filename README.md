@@ -22,7 +22,9 @@ Data are taken from the most recent and reliable sources, and optimal search-and
 
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
       alt="Google Play"
-      height="80">](https://play.google.com/store/apps/details?id=iaea.nds.nuclides) 
+      height="80">](https://play.google.com/store/apps/details?id=iaea.nds.nuclides) [<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png"
+      alt="IzzyOnDroid"
+      height="80">](https://apt.izzysoft.de/fdroid/index/apk/iaea.nds.nuclides) 
 
 ## To do
 
