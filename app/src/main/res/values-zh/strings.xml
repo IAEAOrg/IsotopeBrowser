@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-<string  name="a_prompt">质量数</string>
+<!--string  name="a_prompt">质量数</string-->
+<string  name="a_prompt">A</string>
 <string name="about_prefix">国际原子能机构核数据科开发</string>
 <string name="abundance">同位素丰度</string>
 <string name="abundance_lbl">同位素丰度</string>
 <string name="avg_en">"Avg En[keV]"</string>
 
-<string name="mass_excess">Mass excess</string>
+<!--string name="mass_excess">Mass excess</string>
 <string name="specific_activity" >Specific act.y</string>
-<string name="decay_constant">Decay const.</string>
+<string name="decay_constant">Decay const.</string-->
+<string name="mass_excess">质量过剩</string>
+<string name="specific_activity" >比活度</string>
+<string name="decay_constant">衰变常数</string>
 <string name="radiative_capture">Radiative capture</string>
 <string name="fission">"Fission"</string>
 <string name="absorption">"Absorption"</string>
 <string name="n_fission">"(n,fission)"</string>
 <string name="table_title_rad">Avg. En. [keV]ANDInt. % AND En. max. [keV]  AND En. EC [keV] AND En. [keV]  </string>
 
-<string name="and">和</string>
+<!--string name="and">和</string-->
+<string name="and">到</string>
 <string name="app_name">核素导览</string>
-<string name="between">之间</string>
+<!--string name="between">之间</string-->
+<string name="between">范围</string>
 <string name="binding_energy">结合能</string>
 <string name="btn_search_label">开始</string>
 <string name="charge_rad">电荷半径</string>
@@ -42,7 +48,8 @@
 <string name="half_life_units">ps,ns,µ s,ms,s,m,h,d,Y</string>
 <string name="iaeands">国际原子能机构核数据科</string>
 <!--string name="jp_prompt">角动量和宇称</string-->
-<string name="jplike">Jp为</string>
+<!--string name="jplike">Jp为</string-->
+<string name="jplike">J\u03C0为</string>
 <string name="label_prefs">设置</string>
 <string name="lbl_message_wait">请稍等</string>
 <string name="lblAdvSearch">高级检索</string>
@@ -56,20 +63,24 @@
 <string name="mean_square">均方</string>
 <string name="more_about">"更多内容请参考 &lt;a href=> NDS网页 &lt;/a>"</string>
 <string name="msg_nobranching">此衰变不存在</string>
-<string name="n_prompt">中子数</string>
+<!--string name="n_prompt">中子数</string-->
+<string name="n_prompt">N</string>
 <string name="nds_tag">由国际原子能机构核数据科提供</string>
 <string name="new_in_ib">核素导览更新内容</string>
 <string name="no_results">没有找到相关核素</string>
 <!--string name="nuc_input_help">9C或C或6</string-->
 <string name="nuclide">核素</string>
 <!--string name="one">核素：</string-->
-<string name="orderby">按   排序</string>
+<!--string name="orderby">按   排序</string-->
+<string name="orderby">排序方式为</string>
 <string name="ordering">排序</string>
 <!--string name="other">核素：</string-->
 <string name="parents">母核</string>
 <string name="pref_language">语言</string>
-<string name="pref_nuclides_orderby">核素列表按...排序</string>
-<string name="pref_radiation_orderby">按衰变方式排序</string>
+<!--string name="pref_nuclides_orderby">核素列表按...排序</string>
+<string name="pref_radiation_orderby">按衰变方式排序</string-->
+<string name="pref_nuclides_orderby">核素列表排序方式</string>
+<string name="pref_radiation_orderby">衰变辐射排序方式</string>
 <string name="pref_value_orderbyenergy">能量</string>
 <string name="pref_value_orderbyhalflife">半衰期</string>
 <string name="pref_value_orderbyintensity">强度</string>
@@ -97,7 +108,8 @@
 <string name="warn_no_input">至少需要输入一个参数</string>
 <string name="warning">警告</string>
 <string name="width">宽度</string>
-<string name="z_prompt">原子数</string>
+<!--string name="z_prompt">原子数</string-->
+<string name="z_prompt">Z</string>
 <string name="elements_names">"中子
 氢
 氦
@@ -240,12 +252,12 @@ Uuo
 <br>点击“高级检索”，填写完成相关信息后，按<b>“开始”</b>进行查找。
 <br><b>当高级检索信息输入栏收起后，所填信息不再起作用。</b>
 <br><br><b>辐射筛选：</b> 选择辐射类型之后，结果列表中将显示所选能量范围内的强度最大的谱线而不是衰变方式。
-<br>结果列表上方的按钮可以在2种显示方式之间切换。核素详细页面将匹配的辐射标红显示。
+<br>结果列表上方的按钮可以在2种显示方式之间切换。匹配的辐射将在核素详细页面标红显示。
 <br><br>输入核素符号后，可以通过勾选框将辐射搜索结果扩展至整个衰变链。
 <br><br><span style="color:#194CAF"><b>结果列表</b></span>
 <br>默认按照z,n排序。可以在<b>“设置”</b>中改变排序方式。在列表中点击任一条目即可链接到相应的详细信息页面。选择辐射类型后，结果列表上方的2个按钮可以在辐射强度+能量和半衰期+衰变方式两只显示方式之间切换。
 <br><br><span style="color:#194CAF"><b>不确定度</b></span>
-<br>A不确定度列在括号里，与括号前数据最后一位有效位对齐：<br> 12.34 (123) 表示 12.34 +- 1.23
+<br>不确定度列在括号里，与括号前数据最后一位有效位对齐：<br> 12.34 (123) 表示 12.34 +- 1.23
 <br><br><span style="color:#194CAF"><b>详细页面</b></span>
 <br><b>Z, N</b><br>分别代表质子和中子数。
 <br><br><b>J\u03C0</b><br>总角动量和宇称。在括号里的数值表示其值不确定。
